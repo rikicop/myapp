@@ -1,0 +1,15 @@
+import React from 'react';
+
+function App() {
+
+    return (
+      const hello ='Hi my Friend'  
+      <div>
+    	    <H1>Helyloo my dear { hello } </h1>
+    	  <h1>Helloo my dear!</h1>
+      </div>      
+            
+   );
+}
+
+export default App;
