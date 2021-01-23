@@ -1,14 +1,19 @@
 import React from 'react';
+import './App.css';
+import ClassCounter from './components/ClassCounter'
+import HookCounter from './components/HookCounter'
 
-function App() {
-const hello ='Hi my Friend'
-    return (
+function App(){
 
-      <div>
-    	  <h1>Helloo my dear {hello}!</h1>
-      </div>
+    return(
 
-   );
+	<div className='App'>
+	   {/* <ClassCounter/> */}
+	    <HookCounter />
+	</div>
+	
+    )
+
 }
 
 
